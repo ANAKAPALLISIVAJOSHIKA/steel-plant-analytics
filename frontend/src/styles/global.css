@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+body {
+
+  zoom: 75%;
+
+  background: #f8fafc;
+
+  overflow-x: hidden;
+
+}
+
+.analysis-hover:hover{
+  transform:translateY(-8px);
+  box-shadow:0 15px 35px rgba(124,58,237,0.15);
+}
+
+.analysis-hover{
+  transition:0.3s;
+}

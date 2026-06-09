@@ -44,7 +44,7 @@ function DelayDescriptionAnalytics() {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/delays"
+        "https://steel-plant-analytics.onrender.com/api/delays"
       );
 
       const data = res.data;

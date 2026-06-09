@@ -65,7 +65,7 @@ function Dashboard() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/delays"
+        "https://steel-plant-analytics.onrender.com/api/delays"
       );
 
       const data = response.data || [];
